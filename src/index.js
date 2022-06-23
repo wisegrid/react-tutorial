@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import NoticeBoard from "./notice-practice/NoticeBoard";
+import Clock from "./standard-practice/Clock";
+import Toggle from "./standard-practice/Toggle";
+import LoggingButton from "./standard-practice/LoggingButton";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <NoticeBoard/>
+      {/*<NoticeBoard/>*/}
+      {/*<Clock />*/}
+      {/*<Toggle/>*/}
+      <LoggingButton/>
   </React.StrictMode>
 );
 
